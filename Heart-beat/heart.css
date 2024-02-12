@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+}
+
+.heart::after {
+    content: '';
+    background-color:inherit;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -50%;
+}
+.heart::before {
+    content: '';
+    background-color:inherit;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0%;
+    right: 50%;
+}

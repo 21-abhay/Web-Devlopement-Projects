@@ -1,0 +1,73 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calculator{
+    margin: 20px;
+    padding: 10px;
+}
+
+.outer{
+    border: 2px solid black;
+    margin: auto;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(88, 88, 88);
+    background-color: rgb(27, 27, 27);
+}
+.inner{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 350px;
+    background-color: rgb(201, 199, 199);
+}
+
+.display{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(238, 229, 229);
+}
+
+.display h1{
+    min-height: 50px;
+    padding-left: 10px;
+}
+#output{
+    color: rgb(29, 28, 28);
+}
+
+.btn-container button{
+    min-width: 50px;
+    min-height: 50px;
+    margin: 8px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(143, 139, 139);
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(83, 81, 81);
+    color: white;
+}
+.special{
+    width: 43%;
+}
+#clear{
+    background-color: rgb(228, 159, 159);
+    color: black;
+}
+#equal{
+    background-color: rgb(5, 5, 5);
+}
+#back{
+    background-color: rgb(8, 8, 8);
+}
+.arith{
+    background-color: rgb(82, 44, 44);
+}
+
+

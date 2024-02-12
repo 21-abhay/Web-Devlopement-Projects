@@ -1,0 +1,74 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(117, 150, 87);
+}
+
+.container{
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+#heading{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.outer{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(49, 48, 48);
+}
+.inner{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 30px;
+    background-color: rgb(240, 179, 179);
+}
+.inner h1{
+    min-width: 60px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn button {
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 10px 5px;
+}
+#stopwatch-btn{
+    background-color: rgb(30, 122, 184);
+}
+#stopwatch{
+    display: none;
+}
+#start{
+    background-color: rgb(99, 211, 99);
+}
+#stop{
+    background-color: rgb(223, 142, 95);
+}
+#restart{
+    background-color: rgb(192, 89, 89);
+}
+#clock-btn{
+    background-color: rgb(170, 72, 154);
+    display: none;
+}
