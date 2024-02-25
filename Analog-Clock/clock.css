@@ -1,0 +1,82 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(15, 249, 7);
+}
+
+.container{
+    border:  2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(41, 39, 39);
+}
+.container h1{
+    font-size: 40px;
+    color: rgb(252, 252, 252);
+    text-align: end;
+    /* width: 50%; */
+    text-decoration: underline rgb(2, 2, 2);
+}
+.container h4{
+    color: rgb(224, 187, 22);
+    font-size: 20px;
+    text-align: end;
+    /* width: 50%; */
+    margin-bottom: 30px;
+    text-decoration: underline 2px white;
+}
+
+.clock{
+    border: 5px solid rgb(25, 83, 13);
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 52, 19);
+    box-shadow: 15px 15px 40px rgb(0, 0, 0, 10) inset,-15px -15px 40px rgb(0, 0, 0, 10) inset;
+}
+.clock span{
+    position: absolute;
+    transform: rotate(calc(30deg * var(--i)));
+    inset: 12px;
+    text-align: center;
+}
+.clock span b{
+    transform: rotate(calc(-30deg * var(--i)));
+    display: inline-block;
+    font-size: 30px;
+}
+
+.clock::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(97, 99, 96);
+    border-radius: 50%;
+    z-index: 2;
+}
+.hands{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    align-items: flex-end;
+
+}
+.hands i{
+    position: absolute;
+    width: 8px ;
+    height: calc(var(--h));
+    background-color: var(--clr);
+    border-radius: 10px;
+    border: 1px solid rgb(1, 1, 1);
+}

@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* color: green; */
 }
 body{
-    background-color: rgb(117, 150, 87);
+    background-color: rgb(0, 0, 0);
 }
 
 .container{
@@ -21,11 +22,11 @@ body{
     margin-bottom: 20px;
 }
 .outer{
-    border: 2px solid black;
+    border: 2px solid rgb(85, 250, 8);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
-    background-color: rgb(49, 48, 48);
+    background-color: rgb(255, 255, 255);
 }
 .inner{
     border: 2px solid black;
@@ -34,11 +35,12 @@ body{
     display: flex;
     flex-wrap: nowrap;
     font-size: 30px;
-    background-color: rgb(240, 179, 179);
+    background-color: rgb(61, 61, 61);
 }
 .inner h1{
     min-width: 60px;
     text-align: center;
+    color: rgb(48, 224, 13);
 }
 .btn{
     display: flex;

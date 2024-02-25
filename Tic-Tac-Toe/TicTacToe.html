@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="./TicTacToe.css">
+</head>
+<body>
+    <div class="game">
+        <h1 class="heading">Let's Play Tic-Tac-Toe</h1>
+        <div class="main">
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+            <div class="parts" onclick="start(event)"></div>
+        </div>
+        <div class="result">
+            <h2 id="player-1">Player-1 : <span id="result-1">0</span></h2>
+            <h2 id="player-2">Player-2 : <span id="result-2">0</span></h2>
+            <h2 id="Total">Total : <span id="result-total">0</span></h2>
+        </div>
+        <div class="btn">
+            <button id="restart">Restart</button>
+        </div>
+        <h1 id="outcome">Player-1</h1>
+    </div>
+
+    <script src="./TicTacToe.js"></script>
+</body>
+</html>
