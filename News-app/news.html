@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News App</title>
+    <link rel="stylesheet" href="./news.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="../logo.jpeg.jpg" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li onclick="categorical_news(event)">Sports</li>
+                <li onclick="categorical_news(event)">Business</li>
+                <li onclick="categorical_news(event)">Technology</li>
+                <li onclick="categorical_news(event)">Entertainment</li>
+            </ul>
+        </div>
+        <div class="search">
+            <input type="text">
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Today's Top-Headlines</h1>
+    </div>
+
+    <div class="page">
+        <button onclick="pagination(event)">Prev</button>
+        <button id="pageno">1</button>
+        <button onclick="pagination(event)">Next</button>
+    </div>
+
+    <div class="spinner-container">
+        <div id="spinner"></div>
+    </div>
+    
+    <div id="container">
+        <div class="news">
+            <img src="../logo.jpeg.jpg" alt="">
+            <h4 id="heading">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus voluptas quaerat, quo sit aspernatur blanditiis tenetur, rem exercitationem voluptatem neque temporibus illum facere est in soluta. Accusantium laudantium similique ipsum!</h4>
+            <p id="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit unde et fugiat neque ducimus, maxime facere exercitationem dignissimos sequi similique sunt in vitae repudiandae magni, quis nam officiis cupiditate? Repudiandae.</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+
+    <div class="page">
+        <button onclick="pagination(event)">Prev</button>
+        <button id="pageno">1</button>
+        <button onclick="pagination(event)">Next</button>
+    </div>
+
+
+    <script src="./news.js"></script>
+</body>
+</html>

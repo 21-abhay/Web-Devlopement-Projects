@@ -1,3 +1,117 @@
 *{
-    border: 2px solid black;
+    /* padding: 0;
+    margin: 0;
+    box-sizing: border-box; */
+    /* border: 2px solid black; */
+}
+li{
+    cursor: pointer;
+}
+
+.row{
+    position: relative;
+}
+.main-menu{
+    /* background-color: aqua; */
+    position: fixed;
+    width: inherit;
+    /* right: 100%; */
+    left: 0;
+}
+.main-menu>:first-child{
+    /* background-color: aqua; */
+    height: 100vh;
+    position: sticky;
+    width: 95%;
+    left: 0;
+    padding: 20px 5px;
+}
+.left-part{
+    border-right: 1px solid rgb(0, 0, 0);
+    /* padding: 50px auto; */
+}
+.left-part .bottom{
+    position: absolute;
+    bottom: 0%;
+    width: 90%;
+}
+
+.left-part li{
+    border: 0px solid;
+    /* padding: 40px auto; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.left-part .logo img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.left-part li:hover{
+    background-color: rgb(231, 233, 233);
+}
+
+.pop-up{
+    border: 2px solid rgb(199, 199, 199);
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    position: absolute;
+    bottom: 50%;
+    /* top: 0%; */
+    z-index: 2;
+    background-color: white;
+    /* display: none; */
+
+}
+.pop-up>:first-child{
+    border-bottom: 2px solid rgb(199, 199, 199);
+    padding-bottom: 10px;
+}
+.pop-up>:last-child{
+    border-top: 2px solid rgb(199, 199, 199);
+    padding-top: 10px;
+    color: rgb(65, 64, 64);
+}
+
+.center-part{
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.story{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+.story li{
+    /* border: 2px solid black; */
+    list-style: none;
+    width: 75px;
+    height: 90px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.story img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 5px solid rgb(123, 233, 123);
+}
+
+
+.right-part li{
+    display: flex;
+    align-items: center;
+}
+.right-part li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
