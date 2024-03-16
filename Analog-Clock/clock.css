@@ -32,6 +32,7 @@
     text-decoration: underline 2px white;
 }
 
+/* Clock border design */
 .clock{
     border: 5px solid rgb(25, 83, 13);
     width: 300px;
@@ -44,6 +45,8 @@
     background-color: rgb(28, 52, 19);
     box-shadow: 15px 15px 40px rgb(0, 0, 0, 10) inset,-15px -15px 40px rgb(0, 0, 0, 10) inset;
 }
+
+/* Digit or Number Design */
 .clock span{
     position: absolute;
     transform: rotate(calc(30deg * var(--i)));
@@ -56,15 +59,8 @@
     font-size: 30px;
 }
 
-.clock::before{
-    content: '';
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background-color: rgb(97, 99, 96);
-    border-radius: 50%;
-    z-index: 2;
-}
+
+/* Clock hands Design */
 .hands{
     display: flex;
     justify-content: center;
@@ -79,4 +75,16 @@
     background-color: var(--clr);
     border-radius: 10px;
     border: 1px solid rgb(1, 1, 1);
+}
+
+
+/* center part  */
+.clock::before{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(97, 99, 96);
+    border-radius: 50%;
+    z-index: 2;
 }

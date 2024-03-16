@@ -17,7 +17,7 @@ function start(event){
         if(checkWin()){
             console.log(currentPlayer," won the game..");
             outcome.style.display = 'block'
-            outcome.style.animation = 'show 1.6s 1';
+            outcome.style.animation = 'show 2s 1';
             setInterval(() => {
                 outcome.style.display = 'none';
             }, 1500);
@@ -25,7 +25,6 @@ function start(event){
         }
         changeTurn();
     }
-    total.textContent = 1 + parseInt(total.textContent);
 }
 
 function changeTurn(){
@@ -60,11 +59,12 @@ function givePoints(){
     else{
         result2.textContent = 1 + parseInt(result2.textContent);
     }
+    clear();
 }
-
-restart.addEventListener('click',()=>{
+const clear = ()=>{
     for (let i = 0; i < parts.length; i++) {
         parts[i].textContent = ''
-        
     }
-})
+    total.textContent = 1 + parseInt(total.textContent);
+}
+restart.addEventListener('click',clear)
