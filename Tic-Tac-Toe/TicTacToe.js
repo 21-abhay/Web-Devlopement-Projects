@@ -22,19 +22,23 @@ function start(event){
                 outcome.style.display = 'none';
             }, 1500);
             givePoints();
+            currentPlayer=player1;
+            return;
         }
-        changeTurn();
+        else{
+            changeTurn();
+        }
     }
 }
 
 function changeTurn(){
     if(currentPlayer===player1){
         currentPlayer = player2;
-        outcome.textContent = 'Player-1';
+        outcome.textContent = 'Player-2';
     }
     else{
         currentPlayer = player1;
-        outcome.textContent = 'Player-2';
+        outcome.textContent = 'Player-1';
     }
 }
 

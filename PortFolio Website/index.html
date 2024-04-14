@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhayjeet-Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/d291af54d7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- Header Section -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Abhay.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">PortFolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Abhayjeet</span><br>Kumar from Delhi</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----About Section------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Hello! I'm Abhayjeet Kumar, a dedicated BSc (H) Computer Science student at Delhi University with a passion for becoming a Full Stack Web Developer. Through my rigorous academic journey, I've honed my skills in programming languages like HTML, CSS, JavaScript, and various frameworks and technologies. With a keen eye for detail and a drive for innovation, I've embarked on numerous projects that demonstrate my ability to create seamless and user-friendly web experiences. From dynamic websites to interactive web applications, I've tackled diverse challenges and consistently delivered high-quality solutions. My commitment to learning and staying updated with the latest industry trends fuels my ambition to excel in the ever-evolving field of web development. I'm eager to contribute my expertise, creativity, and enthusiasm to impactful projects and collaborations. Let's build something remarkable together
+                    </p>
+
+                    <div class="tab-tiles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Front-End </span><br>ReactJS, Bootstrap , JavaScript, JQuerry</li>
+                            <li><span>Back-End</span><br>NodeJS , Express</li>
+                            <li><span>DataBase</span><br>MongoDB , MySQL</li>
+                            <li><span>Languages</span><br>C++ , Pythonn</li>
+                            <li><span>Data Structure and Algorithmn</span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>In Pharmaceutical INC <br>Jun 2024 - Aug 2024</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Under Graduation</span><br>from Delhi University <br>8 CGP <br>2021-2024</li>
+                            <li><span>12th</span><br>from Nav School <br>89% <br> 2019-2021</li>
+                            <li><span>10th</span><br>from St. Paul Sr. School <br>89% <br>2018--2019</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ----Sevices Section----  -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dignissimos modi officiis distinctio aliquam similique, mollitia magni totam temporibus saepe esse vitae veritatis molestiae architecto unde autem hic voluptas tempore?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dignissimos modi officiis distinctio aliquam similique, mollitia magni totam temporibus saepe esse vitae veritatis molestiae architecto unde autem hic voluptas tempore?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum dignissimos modi officiis distinctio aliquam similique, mollitia magni totam temporibus saepe esse vitae veritatis molestiae architecto unde autem hic voluptas tempore?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -----PortFolio-------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, eos explicabo. Asperiores soluta temporibus ea consequatur eveniet adipisci tempore quasi blanditiis, non sed unde cumque aliquam ad rem laborum ex.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, eos explicabo. Asperiores soluta temporibus ea consequatur eveniet adipisci tempore quasi blanditiis, non sed unde cumque aliquam ad rem laborum ex.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, eos explicabo. Asperiores soluta temporibus ea consequatur eveniet adipisci tempore quasi blanditiis, non sed unde cumque aliquam ad rem laborum ex.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- -------Contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> abhayjeetroy21@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 8178722914</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/abhayjeet.roy" target="_blank"><i class="fa-brands fa-facebook" style="--clr:#0e12dd;"></i></a>
+                        <a href="https://www.instagram.com/21.abhay/" target="_blank"><i class="fa-brands fa-instagram" style="--clr:#e63e73;"></i></a>
+                        <a href="https://www.youtube.com/@BrainSensitivity21" target="_blank"><i class="fa-brands fa-youtube" style="--clr:#ff0000;"></i></a>
+                        <a href="https://twitter.com/Roy_Abhayjeet21" target="_blank"><i class="fa-brands fa-twitter-square" style="--clr:#8d8588;"></i></a>
+                        <a href="https://www.linkedin.com/in/abhayjeet-kumar-186427263/" target="_blank"><i class="fa-brands fa-linkedin" style="--clr:#3336e6;"></i></a>
+                    </div>
+                    <a href="./images/my-cv.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" id="" required>
+                        <input type="email" name="Email" placeholder="Your Email" id="" required>
+                        <textarea name="message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Abhayjeet. Made by brain Sensitivity</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
