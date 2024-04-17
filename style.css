@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: text-decoration 0.5s;
+}
+.container{
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px;
+}
+.header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header nav img{
+    height: 20vh;
+}
+.header nav ul{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+    font-size: 20px;
+    margin: 10px;
+}
+.header nav ul li a:hover{
+    text-decoration: underline #ff004f;
+}
+.projects .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 15px;
+    padding: 20px 10px;
+}
+.project{
+    /* padding: 10px 30px; */
+    background: url(./image/logo.jpeg.jpg);
+    border: 2px solid #ff004f ;
+    border-radius: 20px;
+    width: fit-content;
+}
+.layer{
+    background: linear-gradient(rgb(0, 0, 0,0.4), #ff004f);
+    border: 2px solid #ff004f ;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    padding: 10px 30px;
+    opacity: 12;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+    
+}
+.layer h2{
+    /* color: black; */
+    text-decoration: 5px underline #50031b;
+}
+.layer a{
+    font-size: 25px;
+    width:fit-content;
+}

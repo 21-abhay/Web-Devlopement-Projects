@@ -52,13 +52,14 @@ img{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 20%;
+    /* top: 20%; */
     width: 50%;
 }
 .college h1{
-    position: absolute;
+    /* position: absolute; */
     width: fit-content;
     /* border: 2px solid black; */
+    
 }
 .logo{
     /* border: 2px solid black; */
