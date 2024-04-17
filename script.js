@@ -25,6 +25,7 @@ fetch('projects.json')
       div.appendChild(div2);
       div.classList.add('project')
     document.getElementById('projects-container').appendChild(div)
+    div.style.backgroundImage = `url(${project.image})`
   });
   
 })

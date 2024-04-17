@@ -49,7 +49,7 @@ a{
 }
 .project{
     /* padding: 10px 30px; */
-    background: url(./image/logo.jpeg.jpg);
+    /* background: url(/image/portfolio.png); */
     border: 2px solid #ff004f ;
     border-radius: 20px;
     width: fit-content;
