@@ -3,49 +3,49 @@
         "name":"PortFolio",
         "description":"",
         "url":"./PortFolio Website/index.html",
-        "image":"/image/portfolio.png"
+        "image":"./image/portfolio.png"
     },
     {
         "name":"Analog Clocck",
         "description":"",
         "url":"./Analog-Clock/clock.html",
-        "image":"/image/analog-clock.png"
+        "image":"./image/analog-clock.png"
     },
     {
         "name":"News Website",
         "description":"",
         "url":"./News-app/news.html",
-        "image":"/image/news.png"
+        "image":"./image/news.png"
     },
     {
         "name":"Tic-Tac-Toe",
         "description":"",
         "url":"./Tic-Tac-Toe/TicTacToe.html",
-        "image":"/image/tictactoe.png"
+        "image":"./image/tictactoe.png"
     },
     {
         "name":"StopWatch & Clock",
         "description":"",
         "url":"./StopWatch-Clock/clock.html",
-        "image":"/image/stopwatch.png"
+        "image":"./image/stopwatch.png"
     },
     {
         "name":"Calculator",
         "description":"",
         "url":"./Calculator/Calculator.html",
-        "image":"/image/calculator.png"
+        "image":"./image/calculator.png"
     },
     {
         "name":"DU-Deegree generator",
         "description":"",
         "url":"./degree generator/du.html",
-        "image":"/image/du-degree.png"
+        "image":"./image/du-degree.png"
     },
     {
         "name":"Netflix-Login-Form",
         "description":"",
         "url":"./Netflix-Login-form/form.html",
-        "image":"/image/netflix.png"
+        "image":"./image/netflix.png"
     },
     {
         "name":"",
